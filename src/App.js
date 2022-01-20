@@ -8,9 +8,11 @@ import Adresse from './Component/Profile/Adresse';
 function App() {
   return (
     <div className="App">
+      <div className="App-header">
       <ProfilePhoto/>
       <FullName/>
       <Adresse/>
+    </div>
     </div>
   );
 }
